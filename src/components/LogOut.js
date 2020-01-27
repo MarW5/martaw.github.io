@@ -14,7 +14,7 @@ class LogOut extends Component{
                         <div className="LogOut">
                               <h2>Wylogowanie nastapiło pomyślnie!</h2>
                               <span><img alt="decoration line" src={decSvg}/></span>
-                              <Link to="/"><a >Strona główna</a></Link>
+                              <Link to="/"><p>Strona główna</p></Link>
                               
                         </div>
                   
