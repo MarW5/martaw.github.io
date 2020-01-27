@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import decSvg from '../../assets/assets/Decoration.svg'
 import HomeHeader from '../Home_components/HomeHeader';
 import myFirebase from "../../Firebase/fbconfig"
-
+import {Link} from 'react-router-dom';
 
 class ReggScreen extends Component{
       state={
@@ -107,7 +107,7 @@ class ReggScreen extends Component{
                                           </div>
                                           <div className="Reg_Form_btn">
                                                 <a onClick={this.onSubmitSignUp}>Załóż konto</a>
-                                                <a href="/logowanie">Zaloguj się</a>
+                                                <Link to = "/logowanie"><p>Zaloguj się</p></Link>
                                           </div>
       
                                     </div>
@@ -125,7 +125,7 @@ class ReggScreen extends Component{
                                     <span><img alt="decoration icon" src={decSvg}/></span>
                                     <div className="Reg_process_succes"> 
                                                 <p className="Succes_message">Rejestracja przebiegła pomyślnie!</p><p className="Succes_message"> Przejdź do ekranu logowania.</p>
-                                          <a className="log_btn" href="/logowanie">Zaloguj się</a>
+                                                <Link to = "/logowanie"><p>Zaloguj się</p></Link>
                                     </div>
             
                               </div>

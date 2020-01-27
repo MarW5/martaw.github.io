@@ -4,6 +4,7 @@ import HomeHeader from '../Home_components/HomeHeader';
 
 import myFirebase from "../../Firebase/fbconfig"
 import LoggIn from '../LoggIn';
+import {Link} from 'react-router-dom';
 
 
 class LoggScreen extends Component{
@@ -67,8 +68,8 @@ class LoggScreen extends Component{
                                     </div>
                                     
                                           <div className="Logg_Form_btn">
-                                                <a href="/rejestracja">Załóż konto</a>
-                                                <Link to = "/oddaj-rzeczy"><a onClick={this.handleFormSubmit} href=" ">Zaloguj się</a></Link>
+                                                <Link to = "/rejestracja"><button className="btn_form">Załóż konto</button></Link>
+                                                <Link to = "/oddaj-rzeczy"><button className="btn_form" onClick={this.handleFormSubmit}>Zaloguj się</button></Link>
                                           </div>
                                     </div>    
                         </>

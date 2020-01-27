@@ -51,14 +51,20 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            a{
+            button{
+            font-size: 18px;
+            font-family: $font-base;
             text-decoration: none;
-            color: $color5;
             padding: 20px 30px;
             font-weight: 300;
+            background-color: white;
+            border: none;
+            outline: $color5;
             &:hover{
                   border: 0.75px solid $color5;
-                  padding: 10px 20px;
+                  
+                  
+                  
             }
 
             }

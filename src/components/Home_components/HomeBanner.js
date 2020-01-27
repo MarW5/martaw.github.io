@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import decSvg from '../../assets/assets/Decoration.svg'
 import HomeHeader from "../Home_components/HomeHeader"
+import {Link } from 'react-router-dom';
 
 class HomeBanner extends Component{
       
@@ -18,8 +19,8 @@ class HomeBanner extends Component{
                                     <span className="border_decoration"><img alt="line decoration" src={decSvg}/></span>
                                     
                                     <div className="Header_menu_buttons">
-                                          <a href="/logowanie"><p>ODDAJ RZECZY</p></a>
-                                          <a href="/logowanie"><p>ZORGANIZUJ ZBIÓRKĘ</p></a>
+                                          <Link to = "/logowanie"><p>ODDAJ RZECZY</p> </Link>
+                                          <Link to = "/logowanie"><p>ZORGANIZUJ ZBIÓRKĘ</p></Link>
                                     </div>
                               </div>
                         </div>
