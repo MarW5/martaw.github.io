@@ -54,12 +54,12 @@ class App extends Component{
                           </Route>
 
                             <Switch>
-                                <Route path ='/logowanie'>
+                                <Route path ='{process.env.PUBLIC_URL}/logowanie'>
                                   <LoggScreen/>
                                   
                                 </Route>
 
-                                <Route path ='/rejestracja'>
+                                <Route path = '{process.env.PUBLIC_URL}/rejestracja'>
                                   <ReggScreen/>
                                   
                                 </Route>
@@ -68,7 +68,7 @@ class App extends Component{
                                   <LoggIn/>
                                 </Route> */}
 
-                                <Route path ='/wylogowano'>
+                                <Route path = "{process.env.PUBLIC_URL}/wylogowano" >
                                   <LogOut/>
                                 </Route>
 
@@ -76,8 +76,8 @@ class App extends Component{
                                   {this.state.user ? <LoggIn user={this.state.user.email}/> : <Redirect to="/logowanie"></Redirect> }
                                 </Route> */}
 
-                                <Route path ='/oddaj-rzeczy'>                              
-                                  {this.state.user ? <FormScreen user={this.state.user.email}/> : <Redirect to="/logowanie"></Redirect> }
+                                <Route path = "{process.env.PUBLIC_URL}/oddaj-rzeczy">                              
+                                  {this.state.user ? <FormScreen user={this.state.user.email}/> : <Redirect to="{process.env.PUBLIC_URL}/logowanie"></Redirect> }
                                 </Route>
                                   
                             </Switch>
