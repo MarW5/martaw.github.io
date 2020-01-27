@@ -46,20 +46,20 @@ class App extends Component{
     return(     
                 <>
                   
-                      <BrowserRouter>
+                      <BrowserRouter basename= "/">
                       
                         
-                          <Route basename="https://marw5.github.io/martaw.github.io/"> 
+                          <Route exact path="/"> 
                             {this.state.user ? <LoggIn user={this.state.user.email}/> : <Home/>}
                           </Route>
 
                             <Switch>
-                                <Route path ='martaw.github.io/logowanie'>
+                                <Route path ='/logowanie'>
                                   <LoggScreen/>
                                   
                                 </Route>
 
-                                <Route path = 'martaw.github.io/rejestracja'>
+                                <Route path = '/rejestracja'>
                                   <ReggScreen/>
                                   
                                 </Route>
@@ -68,7 +68,7 @@ class App extends Component{
                                   <LoggIn/>
                                 </Route> */}
 
-                                <Route path = "martaw.github.io/wylogowano" >
+                                <Route path = "/wylogowano" >
                                   <LogOut/>
                                 </Route>
 
