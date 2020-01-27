@@ -49,17 +49,17 @@ class App extends Component{
                       <BrowserRouter>
                       
                         
-                          <Route basename="{process.env.PUBLIC_URL}"> 
+                          <Route basename="/martaw.github.io/"> 
                             {this.state.user ? <LoggIn user={this.state.user.email}/> : <Home/>}
                           </Route>
 
                             <Switch>
-                                <Route path ='{process.env.PUBLIC_URL}/logowanie'>
+                                <Route path ='/martaw.github.io/logowanie'>
                                   <LoggScreen/>
                                   
                                 </Route>
 
-                                <Route path = '{process.env.PUBLIC_URL}/rejestracja'>
+                                <Route path = '/martaw.github.io/rejestracja'>
                                   <ReggScreen/>
                                   
                                 </Route>
