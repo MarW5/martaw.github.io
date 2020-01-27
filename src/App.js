@@ -46,7 +46,7 @@ class App extends Component{
     return(     
                 <>
                   
-                      <BrowserRouter basename= "{process.env.PUBLIC_URL}">
+                      <BrowserRouter>
                       
                         
                           <Route exact path="{process.env.PUBLIC_URL}"> 
