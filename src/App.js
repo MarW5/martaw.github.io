@@ -54,12 +54,12 @@ class App extends Component{
                           </Route>
 
                             <Switch>
-                                <Route path ='/logowanie'>
+                                <Route path ='{process.env.PUBLIC_URL}/logowanie'>
                                   <LoggScreen/>
                                   
                                 </Route>
 
-                                <Route path = '/rejestracja'>
+                                <Route path = '{process.env.PUBLIC_URL}/rejestracja'>
                                   <ReggScreen/>
                                   
                                 </Route>

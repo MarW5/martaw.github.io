@@ -109,7 +109,6 @@ class Contact extends Component{
               });
             
         }  
-        console.log(obj);
 }
      
     render() {
