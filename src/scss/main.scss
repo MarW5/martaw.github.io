@@ -1,0 +1,44 @@
+@import 'reset-css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,900&display=swap&subset=latin-ext');
+
+@import "settings/fonts";
+@import "settings/colors";
+
+@import "../scss/settings/Home_scss/HomeHeader.scss";
+@import "../scss/settings/Home_scss/HomeBanner.scss";
+@import "../scss/settings/Home_scss/HomeTreeColumns.scss";
+@import "../scss/settings/Home_scss/FourSteps.scss";
+@import "../scss/settings/Home_scss/AboutUs.scss";
+@import "../scss/settings/Home_scss/HelpPeople.scss";
+@import "../scss/settings/Home_scss/Contact.scss";
+@import "../scss/settings/Home_scss/Footer.scss";
+@import "../scss/LoggScreen.scss";
+@import "../scss/ReggScreen.scss";
+@import "../scss/LogOut.scss";
+@import "../scss/settings/Form_scss/Form_header.scss";
+@import "../scss/settings/Form_scss/Form_window.scss";
+@import "../scss/settings/Form_scss/Form_step2.scss";
+@import "../scss/settings/Form_scss/Form_step3.scss";
+@import "../scss/settings/Form_scss/Form_step4.scss";
+@import "../scss/settings/Form_scss/Form_step5.scss";
+@import "../scss/settings/Form_scss/Form_step6.scss";
+
+body{
+      font-family: $font-base;
+      width: 100%;
+      
+      
+}
+#root{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      background-size: cover;
+      box-sizing: content-box;
+      background-position: center;
+}
+
+
