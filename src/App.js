@@ -54,7 +54,7 @@ class App extends Component{
                           </Route>
 
                             <Switch>
-                                <Route path ='https://marw5.github.io/martaw.github.io/logowanie'>
+                                <Route path ='logowanie'>
                                   <LoggScreen/>
                                   
                                 </Route>
@@ -68,7 +68,7 @@ class App extends Component{
                                   <LoggIn/>
                                 </Route> */}
 
-                                <Route path = "/martaw.github.io/wylogowano" >
+                                <Route path = "martaw.github.io/wylogowano" >
                                   <LogOut/>
                                 </Route>
 
