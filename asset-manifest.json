@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/martaw.github.io/static/css/main.8625d6d2.chunk.css",
+    "main.js": "/martaw.github.io/static/js/main.72301cc4.chunk.js",
+    "main.js.map": "/martaw.github.io/static/js/main.72301cc4.chunk.js.map",
+    "runtime-main.js": "/martaw.github.io/static/js/runtime-main.92e48be4.js",
+    "runtime-main.js.map": "/martaw.github.io/static/js/runtime-main.92e48be4.js.map",
+    "static/js/2.1f45e25e.chunk.js": "/martaw.github.io/static/js/2.1f45e25e.chunk.js",
+    "static/js/2.1f45e25e.chunk.js.map": "/martaw.github.io/static/js/2.1f45e25e.chunk.js.map",
+    "index.html": "/martaw.github.io/index.html",
+    "precache-manifest.817c8d1abe402ec832d32ec16f5cae73.js": "/martaw.github.io/precache-manifest.817c8d1abe402ec832d32ec16f5cae73.js",
+    "service-worker.js": "/martaw.github.io/service-worker.js",
+    "static/css/main.8625d6d2.chunk.css.map": "/martaw.github.io/static/css/main.8625d6d2.chunk.css.map",
+    "static/js/2.1f45e25e.chunk.js.LICENSE": "/martaw.github.io/static/js/2.1f45e25e.chunk.js.LICENSE",
+    "static/media/main.scss": "/martaw.github.io/static/media/Icon-Arrow-Up.9b7f6ef4.svg",
+    "static/media/Background-Contact-Form.jpg": "/martaw.github.io/static/media/Background-Contact-Form.f4db7ddd.jpg",
+    "static/media/Decoration.svg": "/martaw.github.io/static/media/Decoration.2290784e.svg",
+    "static/media/Facebook.svg": "/martaw.github.io/static/media/Facebook.df65b6c0.svg",
+    "static/media/Icon-1.svg": "/martaw.github.io/static/media/Icon-1.91147906.svg",
+    "static/media/Icon-2.svg": "/martaw.github.io/static/media/Icon-2.db91e33e.svg",
+    "static/media/Icon-3.svg": "/martaw.github.io/static/media/Icon-3.2cfe9dfe.svg",
+    "static/media/Icon-4.svg": "/martaw.github.io/static/media/Icon-4.436df0aa.svg",
+    "static/media/Instagram.svg": "/martaw.github.io/static/media/Instagram.703479fd.svg",
+    "static/media/People.jpg": "/martaw.github.io/static/media/People.6fa36651.jpg",
+    "static/media/Signature.svg": "/martaw.github.io/static/media/Signature.e54cfcfc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92e48be4.js",
+    "static/js/2.1f45e25e.chunk.js",
+    "static/css/main.8625d6d2.chunk.css",
+    "static/js/main.72301cc4.chunk.js"
+  ]
+}
