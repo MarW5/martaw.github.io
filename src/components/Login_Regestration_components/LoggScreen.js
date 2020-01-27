@@ -68,7 +68,7 @@ class LoggScreen extends Component{
                                     
                                           <div className="Logg_Form_btn">
                                                 <a href="/rejestracja">Załóż konto</a>
-                                                <a onClick={this.handleFormSubmit} href="/oddaj-rzeczy">Zaloguj się</a>
+                                                <Link to = "/oddaj-rzeczy"><a onClick={this.handleFormSubmit} href=" ">Zaloguj się</a></Link>
                                           </div>
                                     </div>    
                         </>
