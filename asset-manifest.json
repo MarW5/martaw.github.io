@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/martaw.github.io/static/css/main.eed47c15.chunk.css",
+    "main.css": "/martaw.github.io/static/css/main.8f5608bd.chunk.css",
     "main.js": "/martaw.github.io/static/js/main.1bacc66f.chunk.js",
     "main.js.map": "/martaw.github.io/static/js/main.1bacc66f.chunk.js.map",
     "runtime-main.js": "/martaw.github.io/static/js/runtime-main.92e48be4.js",
@@ -8,9 +8,9 @@
     "static/js/2.f4ae0d47.chunk.js": "/martaw.github.io/static/js/2.f4ae0d47.chunk.js",
     "static/js/2.f4ae0d47.chunk.js.map": "/martaw.github.io/static/js/2.f4ae0d47.chunk.js.map",
     "index.html": "/martaw.github.io/index.html",
-    "precache-manifest.eb9e9aa5d00e11e5005a8ef7445beacc.js": "/martaw.github.io/precache-manifest.eb9e9aa5d00e11e5005a8ef7445beacc.js",
+    "precache-manifest.cbda3b985e5f325b3c1b0ee651eebc3a.js": "/martaw.github.io/precache-manifest.cbda3b985e5f325b3c1b0ee651eebc3a.js",
     "service-worker.js": "/martaw.github.io/service-worker.js",
-    "static/css/main.eed47c15.chunk.css.map": "/martaw.github.io/static/css/main.eed47c15.chunk.css.map",
+    "static/css/main.8f5608bd.chunk.css.map": "/martaw.github.io/static/css/main.8f5608bd.chunk.css.map",
     "static/js/2.f4ae0d47.chunk.js.LICENSE": "/martaw.github.io/static/js/2.f4ae0d47.chunk.js.LICENSE",
     "static/media/main.scss": "/martaw.github.io/static/media/Icon-Arrow-Up.9b7f6ef4.svg",
     "static/media/Background-Contact-Form.jpg": "/martaw.github.io/static/media/Background-Contact-Form.f4db7ddd.jpg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.92e48be4.js",
     "static/js/2.f4ae0d47.chunk.js",
-    "static/css/main.eed47c15.chunk.css",
+    "static/css/main.8f5608bd.chunk.css",
     "static/js/main.1bacc66f.chunk.js"
   ]
 }
