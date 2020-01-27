@@ -12,12 +12,12 @@ class HomeHeader extends Component{
             return(
                   <div className="Header_menu">
                         <ul className="Header_logg_option">
-                              <li><Link to='logowanie'>Zaloguj</Link></li>
-                              <li><Link to="/rejestracja">Załóż konto</Link></li>
+                              <li><Link to='martaw.github.io/logowanie'>Zaloguj</Link></li>
+                              <li><Link to="martaw.github.io/rejestracja">Załóż konto</Link></li>
                         </ul>
 
                               <ul className=" Header_menu_nav">
-                                    <li><NavLink exact to="/" activeStyle={activeStyle}>Start</NavLink></li>
+                                    <li><NavLink exact to="https://marw5.github.io/martaw.github.io/" activeStyle={activeStyle}>Start</NavLink></li>
                                     <li><ScrollLink activeClass="active" to="FourSteps" spy={true} smooth={true} duration={500}>O co chodzi?</ScrollLink></li>
                                     <li><ScrollLink activeClass="active" to="AboutUs" spy={true} smooth={true} duration={500}>O nas</ScrollLink></li>
                                     <li><ScrollLink activeClass="active" to="HelpPeople" spy={true} smooth={true} duration={500}>Fundacja i organizacje</ScrollLink></li>

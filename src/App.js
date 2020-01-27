@@ -54,12 +54,12 @@ class App extends Component{
                           </Route>
 
                             <Switch>
-                                <Route path ='logowanie'>
+                                <Route path ='martaw.github.io/logowanie'>
                                   <LoggScreen/>
                                   
                                 </Route>
 
-                                <Route path = 'rejestracja'>
+                                <Route path = 'martaw.github.io/rejestracja'>
                                   <ReggScreen/>
                                   
                                 </Route>
