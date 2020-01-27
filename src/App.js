@@ -46,10 +46,10 @@ class App extends Component{
     return(     
                 <>
                   
-                      <BrowserRouter>
+                      <BrowserRouter  basename={process.env.PUBLIC_URL}>
                       
                         
-                          <Route exact path="{process.env.PUBLIC_URL}"> 
+                          <Route exact path="/"> 
                             {this.state.user ? <LoggIn user={this.state.user.email}/> : <Home/>}
                           </Route>
 
