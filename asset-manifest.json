@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/martaw.github.io/static/css/main.8625d6d2.chunk.css",
-    "main.js": "/martaw.github.io/static/js/main.3452fa13.chunk.js",
-    "main.js.map": "/martaw.github.io/static/js/main.3452fa13.chunk.js.map",
+    "main.css": "/martaw.github.io/static/css/main.8337223f.chunk.css",
+    "main.js": "/martaw.github.io/static/js/main.47cdfcb5.chunk.js",
+    "main.js.map": "/martaw.github.io/static/js/main.47cdfcb5.chunk.js.map",
     "runtime-main.js": "/martaw.github.io/static/js/runtime-main.92e48be4.js",
     "runtime-main.js.map": "/martaw.github.io/static/js/runtime-main.92e48be4.js.map",
-    "static/js/2.1f45e25e.chunk.js": "/martaw.github.io/static/js/2.1f45e25e.chunk.js",
-    "static/js/2.1f45e25e.chunk.js.map": "/martaw.github.io/static/js/2.1f45e25e.chunk.js.map",
+    "static/js/2.f4ae0d47.chunk.js": "/martaw.github.io/static/js/2.f4ae0d47.chunk.js",
+    "static/js/2.f4ae0d47.chunk.js.map": "/martaw.github.io/static/js/2.f4ae0d47.chunk.js.map",
     "index.html": "/martaw.github.io/index.html",
-    "precache-manifest.d7366590368a8846a0bcebc53c33e162.js": "/martaw.github.io/precache-manifest.d7366590368a8846a0bcebc53c33e162.js",
+    "precache-manifest.5ea60f383a0d050b67a4be284b64ffdc.js": "/martaw.github.io/precache-manifest.5ea60f383a0d050b67a4be284b64ffdc.js",
     "service-worker.js": "/martaw.github.io/service-worker.js",
-    "static/css/main.8625d6d2.chunk.css.map": "/martaw.github.io/static/css/main.8625d6d2.chunk.css.map",
-    "static/js/2.1f45e25e.chunk.js.LICENSE": "/martaw.github.io/static/js/2.1f45e25e.chunk.js.LICENSE",
+    "static/css/main.8337223f.chunk.css.map": "/martaw.github.io/static/css/main.8337223f.chunk.css.map",
+    "static/js/2.f4ae0d47.chunk.js.LICENSE": "/martaw.github.io/static/js/2.f4ae0d47.chunk.js.LICENSE",
     "static/media/main.scss": "/martaw.github.io/static/media/Icon-Arrow-Up.9b7f6ef4.svg",
     "static/media/Background-Contact-Form.jpg": "/martaw.github.io/static/media/Background-Contact-Form.f4db7ddd.jpg",
     "static/media/Decoration.svg": "/martaw.github.io/static/media/Decoration.2290784e.svg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.92e48be4.js",
-    "static/js/2.1f45e25e.chunk.js",
-    "static/css/main.8625d6d2.chunk.css",
-    "static/js/main.3452fa13.chunk.js"
+    "static/js/2.f4ae0d47.chunk.js",
+    "static/css/main.8337223f.chunk.css",
+    "static/js/main.47cdfcb5.chunk.js"
   ]
 }
