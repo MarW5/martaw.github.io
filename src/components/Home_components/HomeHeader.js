@@ -12,8 +12,8 @@ class HomeHeader extends Component{
             return(
                   <div className="Header_menu">
                         <ul className="Header_logg_option">
-                              <li><Link to="/logowanie">Zaloguj</Link></li>
-                              <li><Link to="/rejestracja">Załóż konto</Link></li>
+                              <li><Link to='https://marw5.github.io/martaw.github.io/logowanie'>Zaloguj</Link></li>
+                              <li><Link to="https://marw5.github.io/martaw.github.io/rejestracja">Załóż konto</Link></li>
                         </ul>
 
                               <ul className=" Header_menu_nav">

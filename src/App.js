@@ -49,17 +49,17 @@ class App extends Component{
                       <BrowserRouter>
                       
                         
-                          <Route basename="https://marw5.github.io/martaw.github.io/martaw.github.io/"> 
+                          <Route basename="https://marw5.github.io/martaw.github.io/"> 
                             {this.state.user ? <LoggIn user={this.state.user.email}/> : <Home/>}
                           </Route>
 
                             <Switch>
-                                <Route path ='https://marw5.github.io/martaw.github.io/martaw.github.io/logowanie'>
+                                <Route path ='https://marw5.github.io/martaw.github.io/logowanie'>
                                   <LoggScreen/>
                                   
                                 </Route>
 
-                                <Route path = 'https://marw5.github.io/martaw.github.io/martaw.github.io/rejestracja'>
+                                <Route path = 'https://marw5.github.io/martaw.github.io/rejestracja'>
                                   <ReggScreen/>
                                   
                                 </Route>
@@ -68,7 +68,7 @@ class App extends Component{
                                   <LoggIn/>
                                 </Route> */}
 
-                                <Route path = "https://marw5.github.io/martaw.github.io/martaw.github.io/wylogowano" >
+                                <Route path = "https://marw5.github.io/martaw.github.io/wylogowano" >
                                   <LogOut/>
                                 </Route>
 
