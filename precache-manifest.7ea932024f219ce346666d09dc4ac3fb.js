@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ec6998667539550b2281f9e34365599",
+    "revision": "b901aece6298c249ad20b429cf298fd2",
     "url": "/martaw.github.io/index.html"
   },
   {
-    "revision": "e11c7a8508423b1ccea4",
+    "revision": "c301703627189dd74dc3",
     "url": "/martaw.github.io/static/css/main.8f5608bd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/martaw.github.io/static/js/2.f4ae0d47.chunk.js.LICENSE"
   },
   {
-    "revision": "e11c7a8508423b1ccea4",
-    "url": "/martaw.github.io/static/js/main.1bacc66f.chunk.js"
+    "revision": "c301703627189dd74dc3",
+    "url": "/martaw.github.io/static/js/main.2d827290.chunk.js"
   },
   {
     "revision": "b64b22d12e7697fac923",
