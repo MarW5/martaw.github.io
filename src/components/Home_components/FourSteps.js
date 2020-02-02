@@ -4,6 +4,7 @@ import Icon1 from "../../assets/assets/Icon-1.svg"
 import Icon2 from "../../assets/assets/Icon-2.svg"
 import Icon3 from "../../assets/assets/Icon-3.svg"
 import Icon4 from "../../assets/assets/Icon-4.svg"
+import {Link } from 'react-router-dom';
 
 class FourSteps extends Component{
       render(){
@@ -17,7 +18,7 @@ class FourSteps extends Component{
                             <li><span><img alt="loupe" src={Icon3}/></span><h3>Zdecyduj komu chcesz pomóc</h3><p>swybierz zaufane miejsce</p></li>
                             <li><span><img alt="courier" src={Icon4}/></span><h3>Zamów kuriera</h3><p>kurier przyjedzie w dogodnym terminie</p></li>
                         </ul>
-                        <a href="/logowanie">Oddaj rzeczy</a>
+                        <Link to= "/oddaj-rzeczy">Oddaj rzeczy</Link>
                   </div>
             )
       }
