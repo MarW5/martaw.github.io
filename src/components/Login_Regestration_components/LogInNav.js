@@ -43,8 +43,8 @@ class LogInNav extends Component{
                         <span className="border_decoration"><img alt="decoration line" src={decSvg}/></span>
                         
                         <div className="Header_menu_buttons">
-                              <a href="/oddaj-rzeczy"><p>ODDAJ RZECZY</p></a>
-                              <a href="/oddaj-rzeczy"><p>ZORGANIZUJ ZBIÓRKĘ</p></a>
+                              <Link to="/oddaj-rzeczy"><p>ODDAJ RZECZY</p></Link>
+                              <Link to="/oddaj-rzeczy"><p>ZORGANIZUJ ZBIÓRKĘ</p></Link>
                         </div>
                   </div>
             </div>
